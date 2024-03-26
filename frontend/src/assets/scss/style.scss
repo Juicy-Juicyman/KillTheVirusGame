@@ -1,0 +1,107 @@
+@import "bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+.creepster-regular {
+  font-family: "Creepster", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hide {
+  display: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#start {
+  margin: 3rem;
+  height: 50vh;
+  width: 50vw;
+  border: 1px solid black;
+  background-color: rgba(85, 107, 47, 0.5);
+}
+
+.waiting {
+  margin: 4rem auto;
+  border: 1px solid black;
+  background-color: rgba(85, 107, 47, 0.5);
+}
+
+#nametag {
+  margin: 1rem auto 1rem;
+  text-align: center;
+  display: block;
+}
+#replayBtn{
+  margin: 0.625rem auto;
+  display: block;
+  background-color: chartreuse;
+}
+
+#join {
+  margin: 0.625rem auto;
+  display: block;
+  background-color: chartreuse;
+}
+#welcomeHeading {
+  margin: 0.625rem auto;
+  text-align: center;
+  width: 50%;
+}
+#welcomeParagraph {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+#game {
+  margin-top: 5rem;
+  height: 30rem;
+}
+
+.rowgame {
+  height: 4rem;
+}
+
+#virusEmoji {
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+p {
+  font-size: large;
+}
+
+.playerOne {
+  color: darkblue;
+  font-size: x-large;
+}
+
+.playerTwo {
+  color: green;
+  font-size: x-large;
+
+}
+
+#gameOver {
+background-color: rgba(85, 107, 47, 0.5);
+border-radius: 50%;
+margin: auto;
+text-align: center;
+height: 40vh;
+}
+
+#winnerOrLoser {
+margin-top: 2rem;
+}
+
+.winner {
+  font-size: x-large;
+}
+
+#tie {
+  font-size: x-large;
+}
